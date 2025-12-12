@@ -10,7 +10,7 @@ LocAuto est une application console qui simule la gestion d'un parc automobile p
 
 ### Structure des Fichiers
 
-```
+```markdown
 locAuto-php/
 ├── locAuto.php              # Point d'entrée de l'application
 └── classes/
