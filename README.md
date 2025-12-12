@@ -9,6 +9,7 @@ LocAuto est une application console qui simule la gestion d'un parc automobile p
 ## 🏗️ Architecture du Projet
 
 ### Structure des Fichiers
+
 ```
 locAuto-php/
 ├── locAuto.php              # Point d'entrée de l'application
@@ -38,12 +39,14 @@ locAuto-php/
 ## 🚀 Fonctionnalités
 
 ### Gestion des Véhicules
+
 - ✅ Création de différents types de véhicules (Citadine, Familiale, Utilitaire, Dépanneuse)
 - ✅ Enregistrement automatique dans le parc
 - ✅ Affichage des informations complètes de chaque véhicule
 - ✅ Planification des révisions selon le type de véhicule
 
 ### Gestion du Parc
+
 - ✅ Ajout de véhicules au parc
 - ✅ Recherche de véhicules par identifiant
 - ✅ Suppression de véhicules du parc
@@ -53,10 +56,12 @@ locAuto-php/
 ## 💻 Installation et Utilisation
 
 ### Prérequis
+
 - PHP 8.0 ou supérieur
 - Terminal/Ligne de commande
 
 ### Exécution
+
 ```bash
 # Cloner ou télécharger le projet
 cd locAuto-php
@@ -89,6 +94,7 @@ ParcVehicules::deleteVehiculeById("CIT123");
 ## 📚 Objectifs Pédagogiques
 
 Ce projet permet de maîtriser :
+
 - **Classes abstraites** et méthodes abstraites
 - **Interfaces** et leur implémentation
 - **Héritage** et surcharge de méthodes
@@ -110,6 +116,7 @@ Ce projet permet de maîtriser :
 Projet réalisé dans le cadre de la formation développeur web/web mobile à l'AFPA, module PHP et programmation orientée objet.
 
 **Compétences développées :**
+
 - Maîtrise des concepts POO en PHP
 - Architecture logicielle et design patterns
 - Gestion des erreurs et exceptions
@@ -117,4 +124,4 @@ Projet réalisé dans le cadre de la formation développeur web/web mobile à l'
 
 ---
 
-*Formation AFPA - Développement Web et Web Mobile*
+Formation AFPA - Développement Web et Web Mobile
