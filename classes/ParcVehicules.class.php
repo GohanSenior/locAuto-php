@@ -4,7 +4,7 @@ class ParcVehicules
 {
     // Propriétés
 
-    private static $parc;
+    private static array $parc = [];
 
     // Méthodes
 
