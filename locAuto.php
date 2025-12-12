@@ -15,4 +15,20 @@ $utilitaire = new Utilitaire("Ford", "Transit", "UTI789", 1200);
 ParcVehicules::enregistrer($citadine);
 ParcVehicules::enregistrer($familiale);
 ParcVehicules::enregistrer($utilitaire);
-ParcVehicules::getParc();
+// ParcVehicules::getParc();
+try {
+    // $vehiculeTrouve = ParcVehicules::searchVehiculeById("FAM456");
+    // echo $vehiculeTrouve . "\n";
+    // $vehiculeTrouve2 = ParcVehicules::searchVehiculeById("XYZ999");
+    // echo $vehiculeTrouve2 . "\n";
+    ParcVehicules::deleteVehiculeById("CIT123");
+    ParcVehicules::getParc();
+    ParcVehicules::deleteVehiculeById("XYZ999");
+    
+} catch (ParcVehiculeException $e) {
+    echo "Erreur: " . $e->getMessage() . "\n";
+}
+// $vehiculeTrouve3 = ParcVehicules::searchVehicule($utilitaire);
+// echo $vehiculeTrouve3 . "\n";
+// ParcVehicules::deleteVehicule($familiale);
+// ParcVehicules::getParc();
